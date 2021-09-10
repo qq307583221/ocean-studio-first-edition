@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>大海工作室官网</title>
+    <link rel="stylesheet" href="./style/css-comment.css" type="text/css">
+    <link rel="stylesheet" href="./style/public.css" type="text/css">
+    <link rel="stylesheet" href="./style/main.css" type="text/css">
+    <script>
+        window.onload=function(){
+        setInterval("fun()",3000)
+         }
+        function fun(){
+        var v1=document.querySelector(".banner-img")
+        var v2
+        if(v1.nextElementSibling===null){
+        v2=document.querySelector(".main-banner img:first-child")
+        }
+        else{
+           v2=v1.nextElementSibling
+        }
+        v1.style.opacity=0
+        v1.classList.remove("banner-img")
+        v2.style.opacity=1
+        v2.classList.add("banner-img")
+        }
+    </script>
+</head>
+<body>
+    <header class="main-header clearfix">
+        <h1 class="logo">大海工作室</h1>
+        <nav class="main-nav clearfix">
+            <ul class="nav-ul clearfix">
+                <li class="nav-li"><a href="./index.html">网站首页</a></li>
+                <li class="nav-li"><a href="./about.html">关于我们</a></li>
+                <li class="nav-li"><a href="./join.html">加入我们</a></li>
+                <li class="nav-li"><a href="./news.html">新闻动态</a></li>
+                <li class="nav-li"><a href="./video.html">简介视频</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-banner">
+        <img src="./images/banner1.jpg" alt="企业介绍" class="banner-img">
+        <img src="./images/banner2.jpg" alt="企业介绍">
+    </div>
+    <main class="main">
+        <article>
+        <section class="seaction1">
+            <p class="main-p1">我们能做什么</p>
+            <p class="main-p2">北京XXX有限公司有限公司成立于200X年01月01日，是一家致力于中国广告线下媒体发布行业物联网思维升级的新型物联网广告公司。</p>
+            <div style="text-align: center;">
+                <a href="#" class="main-a">了解更多&nbsp;&nbsp;》</a>
+            </div>
+        </section>
+        <section class="seaction2">
+            <ul class="seaction2-ul clearfix">
+                <li class="seaction2-li1">
+                    <p class="li-p1">智能分发与匹配</p>
+                    <p class="li-p2">基于大数据决策，以分享经济、口碑相传的方式，完成人与人、人与货的自动匹配，将客户不知道的好东西主动送到TA面前。</p>
+                </li>
+                <li class="seaction2-li2">
+                    <p class="li-p1">私域流量变现</p>
+                    <p class="li-p2">5G时代下，媒体渠道下沉，平台为用户提供实用、便捷的系统工具，帮助用户盘活私域流量，并将公域流量转为私域流量。</p>
+                </li>   
+                <li class="seaction2-li3">
+                    <p class="li-p1">社交资产建设</p>
+                    <p class="li-p2">平台整合优质供应链资源，以满足不同消费者需求，并通过创造优质内容与贴心服务，帮助用户实现个人信用的累积。</p>
+                </li>
+            </ul>
+        </section>
+        <div class="div-bottom">
+            <div class="div-bottom_1">
+            <p class="db1-p1">旗下项目-X科技 </p>
+            <p class="db1-p2">X科技是一家以分享经济为设计理念的社交电商平台，它以其特有的“社交零售”方式，让平台的无数小店创业者利用各自的朋友圈、购物群、直播账号等社交工具，轻松实现流量变现。 </p>
+        </div>
+        <div class="div-bottom_2">
+            <p class="db2-p1">把一亿人不知道的好东西送到TA面前 </p>
+            <p class="db2-p2">大数据赋能，严选好货树信任，认真服务立口碑！</p>
+            <a href="#">了解更多产品信息&nbsp;&nbsp;》</a>
+        </div>
+        </div>
+        </article>
+    </main>
+    <footer class="main-footer clearfix">
+        <ul class="footer-ul clearfix">
+            <li class="footer-li"><a href="#">产品网站</a></li>
+            <li class="footer-li"><a href="./join.html">加入我们</a></li>
+            <li class="footer-li"><a href="#">服务协议</a></li>
+            <li class="footer-li"><a href="#">隐私协议</a></li>
+        </ul>
+        <p class="footer-p1">地址：XXXXXXXXXXXX</p>
+    </footer>
+</body>
+</html>

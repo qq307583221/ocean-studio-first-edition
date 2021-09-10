@@ -1,0 +1,50 @@
+/*整体布局*/
+.main{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.main-aside{
+    width: 20%;
+    float: left;
+}
+.aside-li{
+    background-color: #fff;
+    padding: 10px 0;
+    margin: 0 20px 3px 0;
+    padding: 15px;
+}
+.aside-li a{
+    color: #000000;
+}
+.aside-li a:visited{
+    font-weight:bold;
+    text-decoration: underline yellow 6px;
+}
+.aside-li a:hover{
+    font-weight:bold;
+    text-decoration: underline yellow 6px;
+}
+.aside-li a:active{
+    font-weight:bold;
+    text-decoration: underline yellow 6px;
+}
+.main-article{
+    background-color: #fff;
+    width: 80%;
+    float: left;
+    padding: 20px 15px 50px 15px;
+}
+.main-article h2{
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+.main-article p{
+    line-height: 2em;
+}
+img{
+    width: 100%;
+    margin: 15px 0 45px 0;
+}
+
+/*侧边栏*/

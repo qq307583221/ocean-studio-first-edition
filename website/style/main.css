@@ -1,0 +1,126 @@
+/*轮播图*/
+
+.main-banner{
+    widows: 100%;
+    height: 600px;
+    position: relative;
+}
+.main-banner img{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition-duration:2s;
+}
+.main-banner .banner-img{
+    opacity:1;
+}  
+/*正文*/
+
+.main article{
+    width: 100%;
+}
+.seaction1{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-p1{
+    font-size: 40px;
+    color: #000;
+    font-weight:bold;
+    text-align: center;
+    margin: 40px 0;
+}
+.main-p2{
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    margin: 15px 0;
+}
+.main-a{
+    font-weight: bold;
+    color:#000;
+}
+
+.seaction2{
+    width: 100%;
+}
+.seaction2-ul p{
+    width: 100%;
+    text-align: center;
+
+}
+.seaction2-ul li{
+    width: 30%;
+    height: 426px;
+    float: left;
+    color: #fff;
+    background-size: 100% 100%;
+    margin:  20px 0 20px 2.5%;
+    padding: 50px 30px 0 30px;
+}
+.seaction2-li1{
+    background: url(./../images/main_left.png);
+}
+.seaction2-li2{
+    background: url(./../images/center.png) ;
+}
+.seaction2-li3{
+    background: url(./../images/main_right.png) ;
+}
+.li-p1{
+    font-size: 34px;
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+.li-p2{
+    font-size: 20px;
+    line-height: 1.5em;
+
+}
+.div-bottom{
+    width: 90%;
+    margin: 60px auto;
+    background-color: #ddd;
+}
+.div-bottom_1{
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+.db1-p1{
+    font-size: 34px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+
+}
+.db1-p2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.div-bottom_2{
+    color: #fff;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(./../images/web_slice.png);
+    background-size: 100% 100%;
+    padding: 100px 0 0 100px;
+}
+.db2-p1{
+    font-size: 46px;
+    margin-bottom: 40px;
+
+}
+.db2-p2{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.div-bottom_2 a{
+    color: #fff;
+}
